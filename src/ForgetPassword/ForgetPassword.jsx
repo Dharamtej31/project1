@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
-import "./Forget_Password.css";
+import "./ForgetPassword.css";
 
-const Forget_Password=()=>{
+const ForgetPassword=()=>{
     const navigate= useNavigate();
     function create_password(){
         alert("Password successfully changed");

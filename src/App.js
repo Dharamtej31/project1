@@ -1,5 +1,5 @@
 import Assets from "./Assets/Assets";
-import Forget_Password from "./Forget_Password/Forget_Password";
+import ForgetPassword from "./ForgetPassword/ForgetPassword";
 import Hr from "./Hr_Home/Hr_Home";
 import Login from "./Login/Login";
 import SignUp from "./SignUp/SignUp";
@@ -17,7 +17,7 @@ function App() {
       <Route path="/signUp" element={<SignUp/>}/>
       <Route path="/login" element={<Login/>}/>
       <Route path="/home" element={<Hr/>}/>
-      <Route path="/Forget_Password" element={<Forget_Password/>}/>
+      <Route path="/ForgetPassword" element={<ForgetPassword/>}/>
       <Route path="/assets" element={<Assets/>}/>
     </Routes>
     </BrowserRouter>

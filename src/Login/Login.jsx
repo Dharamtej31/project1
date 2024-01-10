@@ -77,7 +77,7 @@ export default function Login({handleSignup}) {
                     name="password"
                     value={Password} 
                     onChange={handlePassword}></input><br />
-                <p className="reset_password"><Link to="/Forget_Password"><b>Forget Password?</b></Link></p>
+                <p className="reset_password"><Link to="/ForgetPassword"><b>Forget Password?</b></Link></p>
                 <input 
                     className="user_value" 
                     type="submit" 
