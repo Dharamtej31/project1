@@ -21,4 +21,4 @@ const ForgetPassword=()=>{
         </div >
     )
 }
-export default Forget_Password;
+export default ForgetPassword ;
